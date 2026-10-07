@@ -10,7 +10,7 @@ interface Message {
 }
 
 const GREETING =
-  "Hi! I'm the Carbon Atlas 2.0 2.0 assistant. Ask me about the calculator, your report, or any carbon-footprint concept.";
+  "Hi! I'm the Carbon Atlas 2.0 assistant. Ask me about the calculator, your report, or any carbon-footprint concept.";
 
 const SUGGESTIONS = [
   'How do I start?',
@@ -145,7 +145,7 @@ export default function CarbonChatbot() {
             </div>
             <div className="flex-1">
               <p className="text-sm font-semibold text-[var(--color-ca-text-primary)]">
-                Carbon Atlas 2.0 2.0 Assistant
+                Carbon Atlas 2.0 Assistant
               </p>
               <p className="text-xs text-[var(--color-ca-text-secondary)]">
                 {isTyping ? 'Typing…' : 'Online — ask me anything'}
