@@ -13,7 +13,7 @@ export default function Header({ reduceMotion, setReduceMotion }: HeaderProps) {
       <div className="max-w-[1200px] mx-auto px-4 md:px-6 h-16 flex items-center justify-between gap-4">
         <NavLink to="/" className="flex items-center gap-2 shrink-0">
           <RotorMark size={32} spin />
-          <span className="ca-heading-gradient font-heading text-lg font-medium">Carbon Atlas</span>
+          <span className="ca-heading-gradient font-heading text-lg font-medium">Carbon Atlas 2.0 2.0</span>
         </NavLink>
 
         <nav className="hidden lg:flex gap-5 text-xs font-medium text-[var(--color-ca-text-secondary)] overflow-x-auto">

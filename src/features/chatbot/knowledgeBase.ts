@@ -16,7 +16,7 @@ export const knowledgeBase: KBEntry[] = [
       'how have you been', 'how you been',
     ],
     response:
-      "Running smoothly, thanks for asking! 🌱 Ready when you are — ask me about the assessment, your report, Carbon Atlas, sustainability, or any carbon concept you're curious about.",
+      "Running smoothly, thanks for asking! 🌱 Ready when you are — ask me about the assessment, your report, Carbon Atlas 2.0, sustainability, or any carbon concept you're curious about.",
   },
   {
     keywords: ['good morning', 'morning', 'gm', 'top of the morning'],
@@ -42,7 +42,7 @@ export const knowledgeBase: KBEntry[] = [
       'whats up', "what's up", 'wassup', 'wazzup', 'wats up',
     ],
     response:
-      "Hey there! 👋 I'm the Carbon Atlas assistant. Ask me about the calculator, your report, sustainability, or any carbon-footprint concept — I'm happy to explain the terms too.",
+      "Hey there! 👋 I'm the Carbon Atlas 2.0 assistant. Ask me about the calculator, your report, sustainability, or any carbon-footprint concept — I'm happy to explain the terms too.",
   },
   {
     keywords: [
@@ -51,7 +51,7 @@ export const knowledgeBase: KBEntry[] = [
       'tell me about yourself', 'who am i talking to', 'who is this',
     ],
     response:
-      "I'm the Carbon Atlas assistant — a built-in helper for this site. I can walk you through the assessment, explain what's on your Carbon Report, define the sustainability and greenhouse-gas terms used across the app, and point you to the right page for support, privacy, or terms of service.",
+      "I'm the Carbon Atlas 2.0 assistant — a built-in helper for this site. I can walk you through the assessment, explain what's on your Carbon Report, define the sustainability and greenhouse-gas terms used across the app, and point you to the right page for support, privacy, or terms of service.",
   },
   {
     keywords: [
@@ -60,7 +60,7 @@ export const knowledgeBase: KBEntry[] = [
       'is this ai', 'is this a bot', 'is this human',
     ],
     response:
-      "I'm a rule-based assistant — no generative AI model behind me, just a curated knowledge base built specifically for Carbon Atlas. That means I'm reliable on anything about this tool, but I won't know things outside that scope. 😅",
+      "I'm a rule-based assistant — no generative AI model behind me, just a curated knowledge base built specifically for Carbon Atlas 2.0. That means I'm reliable on anything about this tool, but I won't know things outside that scope. 😅",
   },
   {
     keywords: [
@@ -135,28 +135,28 @@ export const knowledgeBase: KBEntry[] = [
   },
 
   // ============================================================
-  // WHAT IS CARBON ATLAS / ABOUT
+  // WHAT IS Carbon Atlas 2.0 / ABOUT
   // ============================================================
   {
     keywords: [
       'who made', 'who built', 'who created', 'who developed',
       'who designed', 'about this', 'about the app', 'about the site',
       'about this app', 'about this site', 'about the project',
-      'about carbon atlas', 'what is carbon atlas', 'what is this app',
+      'about Carbon Atlas 2.0', 'what is Carbon Atlas 2.0', 'what is this app',
       'what is this site', 'what is this tool', 'creator', 'developer',
       'built', 'made this',
     ],
     response:
-      "Carbon Atlas is a carbon-footprint calculator built for a manufacturing operation to measure, understand, and act on its greenhouse gas emissions. It walks you through six activity categories, calculates your total footprint in tCO₂e using the FEM 2024 emission factors and the Emission Calculator's fuel conversions, and generates a full report with charts, comparisons, and a tailored action plan. It's a React + TypeScript app built with Vite, Tailwind CSS, GSAP, and Recharts.",
+      "Carbon Atlas 2.0 is a carbon-footprint calculator built for a manufacturing operation to measure, understand, and act on its greenhouse gas emissions. It walks you through six activity categories, calculates your total footprint in tCO₂e using the FEM 2024 emission factors and the Emission Calculator's fuel conversions, and generates a full report with charts, comparisons, and a tailored action plan. It's a React + TypeScript app built with Vite, Tailwind CSS, GSAP, and Recharts.",
   },
   {
     keywords: [
-      'why this calculator', 'why use this', 'why this tool', 'why carbon atlas',
+      'why this calculator', 'why use this', 'why this tool', 'why Carbon Atlas 2.0',
       'why should i use this', 'what is the point of this', 'purpose of this tool',
-      'why did you build this', 'why does this exist', 'point of carbon atlas',
+      'why did you build this', 'why does this exist', 'point of Carbon Atlas 2.0',
     ],
     response:
-      "Most factories know their electricity bill and fuel spend, but not their actual greenhouse-gas footprint — the two aren't the same thing once you account for refrigerant leaks, biomass burning, and the different carbon content of each fuel. Carbon Atlas exists to translate everyday operational data (litres of diesel, m³ of natural gas, kWh of electricity, kg of refrigerant) into one comparable number — tCO₂e — so a factory can see where its emissions actually come from, benchmark categories against each other, and get a concrete action plan instead of a vague 'go green' suggestion.",
+      "Most factories know their electricity bill and fuel spend, but not their actual greenhouse-gas footprint — the two aren't the same thing once you account for refrigerant leaks, biomass burning, and the different carbon content of each fuel. Carbon Atlas 2.0 exists to translate everyday operational data (litres of diesel, m³ of natural gas, kWh of electricity, kg of refrigerant) into one comparable number — tCO₂e — so a factory can see where its emissions actually come from, benchmark categories against each other, and get a concrete action plan instead of a vague 'go green' suggestion.",
   },
   {
     keywords: [
@@ -175,7 +175,7 @@ export const knowledgeBase: KBEntry[] = [
       'explain sustainability', 'what does sustainability mean',
     ],
     response:
-      "Sustainability means meeting today's operational and business needs without compromising the resources, environment, or stability that future operations (and future generations) will depend on. In an industrial context it usually spans three linked areas — environmental (emissions, water, waste), social (worker welfare, community impact), and economic (long-term viability, cost efficiency). Carbon Atlas focuses specifically on the environmental, emissions side of that picture.",
+      "Sustainability means meeting today's operational and business needs without compromising the resources, environment, or stability that future operations (and future generations) will depend on. In an industrial context it usually spans three linked areas — environmental (emissions, water, waste), social (worker welfare, community impact), and economic (long-term viability, cost efficiency). Carbon Atlas 2.0 focuses specifically on the environmental, emissions side of that picture.",
   },
   {
     keywords: [
@@ -200,7 +200,7 @@ export const knowledgeBase: KBEntry[] = [
       'carbon accounting standard', 'emissions accounting standard',
     ],
     response:
-      "The GHG Protocol is the most widely used international standard for how organizations should measure and report greenhouse gas emissions. It splits emissions into Scope 1 (direct — sources you own or control), Scope 2 (indirect — purchased electricity, steam, heat, cooling), and Scope 3 (all other indirect emissions across your value chain, like supply chain and product use). Carbon Atlas's six categories map onto Scope 1 (fuel combustion, vehicles, fugitive gases, production activities) and Scope 2 (purchased electricity, purchased energy) — Scope 3 isn't currently covered in this assessment.",
+      "The GHG Protocol is the most widely used international standard for how organizations should measure and report greenhouse gas emissions. It splits emissions into Scope 1 (direct — sources you own or control), Scope 2 (indirect — purchased electricity, steam, heat, cooling), and Scope 3 (all other indirect emissions across your value chain, like supply chain and product use). Carbon Atlas 2.0's six categories map onto Scope 1 (fuel combustion, vehicles, fugitive gases, production activities) and Scope 2 (purchased electricity, purchased energy) — Scope 3 isn't currently covered in this assessment.",
   },
   {
     keywords: [
@@ -236,7 +236,7 @@ export const knowledgeBase: KBEntry[] = [
       'esg', 'what is esg', 'esg reporting', 'environmental social governance',
     ],
     response:
-      "ESG stands for Environmental, Social, and Governance — a framework investors and buyers use to assess a company's non-financial risk and performance. Your carbon footprint sits squarely in the 'E' pillar. A Carbon Atlas report gives you a concrete, quantified starting point for the emissions section of an ESG disclosure, though full ESG reporting also covers social factors (labour practices, safety) and governance factors (board oversight, ethics) that this tool doesn't measure.",
+      "ESG stands for Environmental, Social, and Governance — a framework investors and buyers use to assess a company's non-financial risk and performance. Your carbon footprint sits squarely in the 'E' pillar. A Carbon Atlas 2.0 report gives you a concrete, quantified starting point for the emissions section of an ESG disclosure, though full ESG reporting also covers social factors (labour practices, safety) and governance factors (board oversight, ethics) that this tool doesn't measure.",
   },
   {
     keywords: [
@@ -266,7 +266,7 @@ export const knowledgeBase: KBEntry[] = [
       'brand sustainability requirement', 'audit requirement buyer',
     ],
     response:
-      "Many international apparel brands require suppliers to report through frameworks like the Higg Index (Facility Environmental Module), Bluesign, or GOTS as a condition of sourcing. All of these ask for exactly the kind of activity data this assessment collects — fuel, electricity, refrigerant, and process-emissions figures — so a completed Carbon Atlas report is a strong starting point for those disclosures, though you should always follow the specific data format each framework requires.",
+      "Many international apparel brands require suppliers to report through frameworks like the Higg Index (Facility Environmental Module), Bluesign, or GOTS as a condition of sourcing. All of these ask for exactly the kind of activity data this assessment collects — fuel, electricity, refrigerant, and process-emissions figures — so a completed Carbon Atlas 2.0 report is a strong starting point for those disclosures, though you should always follow the specific data format each framework requires.",
   },
   {
     keywords: [
@@ -274,7 +274,7 @@ export const knowledgeBase: KBEntry[] = [
       'difference between net zero and carbon neutral',
     ],
     response:
-      "Carbon neutral means your net carbon emissions equal zero, usually achieved by measuring your footprint and then purchasing enough carbon offsets to balance it out. Net zero is a stricter, longer-term goal: cutting real emissions as close to zero as physically possible first (through efficiency, electrification, renewables), and only using offsets for the small residual that can't be eliminated. A Carbon Atlas report is the essential first step for either path — you can't credibly claim either without a measured baseline.",
+      "Carbon neutral means your net carbon emissions equal zero, usually achieved by measuring your footprint and then purchasing enough carbon offsets to balance it out. Net zero is a stricter, longer-term goal: cutting real emissions as close to zero as physically possible first (through efficiency, electrification, renewables), and only using offsets for the small residual that can't be eliminated. A Carbon Atlas 2.0 report is the essential first step for either path — you can't credibly claim either without a measured baseline.",
   },
   {
     keywords: [
@@ -563,7 +563,7 @@ export const knowledgeBase: KBEntry[] = [
       'process emissions', 'what are process emissions', 'production emissions',
     ],
     response:
-      "Process emissions come directly from manufacturing activities themselves rather than from burning fuel for energy — for a garment factory that includes things like wastewater treatment, which generates methane and nitrous oxide as organic matter breaks down. This version of Carbon Atlas does not calculate process emissions, because the reference data contains no process emission factors. Instead, the 'Biomass & Waste Fuels' module covers biomass such as rice husk briquette, and fabric waste burned as fuel.",
+      "Process emissions come directly from manufacturing activities themselves rather than from burning fuel for energy — for a garment factory that includes things like wastewater treatment, which generates methane and nitrous oxide as organic matter breaks down. This version of Carbon Atlas 2.0 does not calculate process emissions, because the reference data contains no process emission factors. Instead, the 'Biomass & Waste Fuels' module covers biomass such as rice husk briquette, and fabric waste burned as fuel.",
   },
 
   // ============================================================
@@ -761,7 +761,7 @@ export const knowledgeBase: KBEntry[] = [
       'is there a fee',
     ],
     response:
-      "Carbon Atlas is free to use — there's no account, no paywall, and no fee to run the assessment or generate your report.",
+      "Carbon Atlas 2.0 is free to use — there's no account, no paywall, and no fee to run the assessment or generate your report.",
   },
   {
     keywords: [
@@ -777,7 +777,7 @@ export const knowledgeBase: KBEntry[] = [
       'does it work in safari', 'does it work in firefox',
     ],
     response:
-      "Carbon Atlas works in any modern browser — Chrome, Firefox, Safari, or Edge. Just make sure JavaScript is enabled, since the assessment and calculations run client-side in your browser.",
+      "Carbon Atlas 2.0 works in any modern browser — Chrome, Firefox, Safari, or Edge. Just make sure JavaScript is enabled, since the assessment and calculations run client-side in your browser.",
   },
   {
     keywords: [
@@ -888,7 +888,7 @@ export const knowledgeBase: KBEntry[] = [
       'baseline year', 'what is a baseline year', 'reference year', 'base year',
     ],
     response:
-      "A baseline year is the first reporting period against which all future progress is measured — if your factory's emissions fall 15% next year, that's 15% below whatever your baseline year showed. Most reduction targets (including buyer or Science Based Targets initiative commitments) are expressed relative to a stated baseline year, so your very first completed Carbon Atlas assessment is a natural candidate to designate as yours.",
+      "A baseline year is the first reporting period against which all future progress is measured — if your factory's emissions fall 15% next year, that's 15% below whatever your baseline year showed. Most reduction targets (including buyer or Science Based Targets initiative commitments) are expressed relative to a stated baseline year, so your very first completed Carbon Atlas 2.0 assessment is a natural candidate to designate as yours.",
   },
   {
     keywords: [
@@ -918,7 +918,7 @@ export const knowledgeBase: KBEntry[] = [
       'sbti', 'science based targets', 'science based targets initiative',
     ],
     response:
-      "The Science Based Targets initiative (SBTi) is a body that validates corporate emissions-reduction targets against what climate science says is actually needed to limit warming to 1.5-2°C, rather than accepting arbitrary percentage pledges. Committing to an SBTi-validated target requires a credible measured baseline first — exactly what a completed Carbon Atlas assessment gives you a running start on.",
+      "The Science Based Targets initiative (SBTi) is a body that validates corporate emissions-reduction targets against what climate science says is actually needed to limit warming to 1.5-2°C, rather than accepting arbitrary percentage pledges. Committing to an SBTi-validated target requires a credible measured baseline first — exactly what a completed Carbon Atlas 2.0 assessment gives you a running start on.",
   },
   {
     keywords: [
@@ -1022,7 +1022,7 @@ export const knowledgeBase: KBEntry[] = [
       'green financing', 'green bond', 'green loan', 'ifc loan', 'world bank green finance',
     ],
     response:
-      "Green financing refers to loans, bonds, or credit lines specifically for environmentally beneficial projects — energy efficiency upgrades, renewable installations, wastewater treatment improvements — often at preferential rates from development finance institutions or local banks running dedicated green facilities. A quantified Carbon Atlas report with a clear action plan is exactly the kind of documentation lenders typically ask for when assessing a green financing application.",
+      "Green financing refers to loans, bonds, or credit lines specifically for environmentally beneficial projects — energy efficiency upgrades, renewable installations, wastewater treatment improvements — often at preferential rates from development finance institutions or local banks running dedicated green facilities. A quantified Carbon Atlas 2.0 report with a clear action plan is exactly the kind of documentation lenders typically ask for when assessing a green financing application.",
   },
   {
     keywords: [
@@ -1133,7 +1133,7 @@ export const knowledgeBase: KBEntry[] = [
       'sustainability disclosure',
     ],
     response:
-      "A sustainability report typically covers your environmental performance (including greenhouse gas emissions), social performance (labour practices, community impact), and governance practices, often structured against a recognized framework like GRI (Global Reporting Initiative). The emissions figures, category breakdown, and action plan from your Carbon Atlas report can feed directly into the environmental section — total tCO₂e for the period, the direct/indirect split, and your named reduction initiatives are exactly the data points most sustainability report templates ask for.",
+      "A sustainability report typically covers your environmental performance (including greenhouse gas emissions), social performance (labour practices, community impact), and governance practices, often structured against a recognized framework like GRI (Global Reporting Initiative). The emissions figures, category breakdown, and action plan from your Carbon Atlas 2.0 report can feed directly into the environmental section — total tCO₂e for the period, the direct/indirect split, and your named reduction initiatives are exactly the data points most sustainability report templates ask for.",
   },
   {
     keywords: [

@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
       <div className="space-y-6 text-sm text-[var(--color-ca-text-secondary)] leading-relaxed">
         <p>Last updated: {new Date().toLocaleDateString()}</p>
         <h2 className="text-lg font-semibold text-[var(--color-ca-text-primary)] mt-6">1. Information We Collect</h2>
-        <p>Carbon Atlas is an assessment tool designed to help your organization track and reduce its carbon footprint. We collect the energy consumption data you input into the assessment forms (e.g., fuel usage, electricity consumption, refrigerant leakage). We do not collect personal identifiable information (PII) unless voluntarily provided.</p>
+        <p>Carbon Atlas 2.0 is an assessment tool designed to help your organization track and reduce its carbon footprint. We collect the energy consumption data you input into the assessment forms (e.g., fuel usage, electricity consumption, refrigerant leakage). We do not collect personal identifiable information (PII) unless voluntarily provided.</p>
         <h2 className="text-lg font-semibold text-[var(--color-ca-text-primary)] mt-6">2. How We Use Your Data</h2>
         <p>The data you provide is used solely to generate your Carbon Report, including the source contribution charts, top contributing activities, and improvement recommendations. Your data is not sold or shared with third-party advertisers.</p>
         <h2 className="text-lg font-semibold text-[var(--color-ca-text-primary)] mt-6">3. Data Security</h2>
