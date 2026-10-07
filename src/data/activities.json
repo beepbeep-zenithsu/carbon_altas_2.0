@@ -1,0 +1,182 @@
+[
+  {
+    "id": "natural_gas_stationary",
+    "group": "stationary_combustion",
+    "name": "Natural Gas",
+    "defaultUnit": "m3",
+    "supportedUnits": [
+      "m3"
+    ]
+  },
+  {
+    "id": "cng_stationary",
+    "group": "stationary_combustion",
+    "name": "CNG — Compressed Natural Gas",
+    "defaultUnit": "m3",
+    "supportedUnits": [
+      "m3"
+    ]
+  },
+  {
+    "id": "diesel_stationary",
+    "group": "stationary_combustion",
+    "name": "Diesel",
+    "defaultUnit": "litres",
+    "supportedUnits": [
+      "litres"
+    ]
+  },
+  {
+    "id": "biomass_certified",
+    "group": "biomass_waste_fuels",
+    "name": "Biomass — Sustainably Sourced with Certification",
+    "defaultUnit": "kg",
+    "supportedUnits": [
+      "kg"
+    ]
+  },
+  {
+    "id": "biomass_uncertified",
+    "group": "biomass_waste_fuels",
+    "name": "Biomass — Without Sustainably Sourced Biomass Certification",
+    "defaultUnit": "kg",
+    "supportedUnits": [
+      "kg"
+    ]
+  },
+  {
+    "id": "fabric_waste",
+    "group": "biomass_waste_fuels",
+    "name": "Fabric Waste",
+    "defaultUnit": "kg",
+    "supportedUnits": [
+      "kg"
+    ]
+  },
+  {
+    "id": "cng_vehicles",
+    "group": "mobile_combustion",
+    "name": "CNG (Factory-Owned Vehicles)",
+    "defaultUnit": "m3",
+    "supportedUnits": [
+      "m3"
+    ]
+  },
+  {
+    "id": "diesel_vehicles",
+    "group": "mobile_combustion",
+    "name": "Diesel (Factory-Owned Vehicles)",
+    "defaultUnit": "litres",
+    "supportedUnits": [
+      "litres"
+    ]
+  },
+  {
+    "id": "petrol_octane_vehicles",
+    "group": "mobile_combustion",
+    "name": "Petrol / Octane (Factory-Owned Vehicles)",
+    "defaultUnit": "litres",
+    "supportedUnits": [
+      "litres"
+    ]
+  },
+  {
+    "id": "refrigerant_r22",
+    "group": "fugitive_emissions",
+    "name": "R-22 (HCFC)",
+    "defaultUnit": "kg",
+    "supportedUnits": [
+      "kg"
+    ]
+  },
+  {
+    "id": "refrigerant_r32",
+    "group": "fugitive_emissions",
+    "name": "R-32 (HFC)",
+    "defaultUnit": "kg",
+    "supportedUnits": [
+      "kg"
+    ]
+  },
+  {
+    "id": "refrigerant_r134a",
+    "group": "fugitive_emissions",
+    "name": "R-134a (HFC)",
+    "defaultUnit": "kg",
+    "supportedUnits": [
+      "kg"
+    ]
+  },
+  {
+    "id": "refrigerant_r404a",
+    "group": "fugitive_emissions",
+    "name": "R-404A (HFC)",
+    "defaultUnit": "kg",
+    "supportedUnits": [
+      "kg"
+    ]
+  },
+  {
+    "id": "refrigerant_r407c",
+    "group": "fugitive_emissions",
+    "name": "R-407C (HFC)",
+    "defaultUnit": "kg",
+    "supportedUnits": [
+      "kg"
+    ]
+  },
+  {
+    "id": "refrigerant_r410a",
+    "group": "fugitive_emissions",
+    "name": "R-410A (HFC)",
+    "defaultUnit": "kg",
+    "supportedUnits": [
+      "kg"
+    ]
+  },
+  {
+    "id": "grid_electricity",
+    "group": "purchased_electricity",
+    "name": "Purchased Electricity (Grid)",
+    "defaultUnit": "kWh",
+    "supportedUnits": [
+      "kWh"
+    ]
+  },
+  {
+    "id": "solar_onsite",
+    "group": "purchased_electricity",
+    "name": "Solar Photovoltaic (On-site)",
+    "defaultUnit": "kWh",
+    "supportedUnits": [
+      "kWh"
+    ]
+  },
+  {
+    "id": "purchased_steam",
+    "group": "purchased_energy",
+    "name": "Purchased Steam",
+    "defaultUnit": "GJ",
+    "supportedUnits": [
+      "GJ"
+    ]
+  },
+  {
+    "id": "district_heating",
+    "group": "purchased_energy",
+    "name": "Purchased Heating (District Heating)",
+    "defaultUnit": "GJ",
+    "supportedUnits": [
+      "GJ"
+    ]
+  },
+  {
+    "id": "chilled_water",
+    "group": "purchased_energy",
+    "name": "Purchased Chilled Water",
+    "defaultUnit": "GJ",
+    "supportedUnits": [
+      "GJ"
+    ]
+  }
+]

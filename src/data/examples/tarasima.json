@@ -1,0 +1,51 @@
+{
+  "2023": {
+    "label": "Tarasima Apparels Ltd. — 2023",
+    "period": "annual",
+    "productionPcs": 22603769.0,
+    "generatorElectricityKwh": 216278.0,
+    "values": {
+      "natural_gas_stationary": 1841331.74,
+      "cng_stationary": 1266467.43,
+      "diesel_stationary": 290782.0,
+      "cng_vehicles": 74182.24,
+      "diesel_vehicles": 225381.0,
+      "petrol_octane_vehicles": 13614.0,
+      "grid_electricity": 6639511.0,
+      "solar_onsite": 4320476.09
+    }
+  },
+  "2024": {
+    "label": "Tarasima Apparels Ltd. — 2024",
+    "period": "annual",
+    "productionPcs": 20681171.0,
+    "generatorElectricityKwh": 252411.0,
+    "values": {
+      "natural_gas_stationary": 792391.0,
+      "cng_stationary": 830166.32,
+      "diesel_stationary": 1264480.0,
+      "cng_vehicles": 82886.1,
+      "diesel_vehicles": 229591.0,
+      "petrol_octane_vehicles": 23831.0,
+      "grid_electricity": 7843266.0,
+      "solar_onsite": 3879711.6
+    }
+  },
+  "2025": {
+    "label": "Tarasima Apparels Ltd. — 2025",
+    "period": "annual",
+    "productionPcs": 18354321.0,
+    "generatorElectricityKwh": 236154.0,
+    "values": {
+      "natural_gas_stationary": 1246433.0,
+      "cng_stationary": 970383.72,
+      "diesel_stationary": 933109.0,
+      "cng_vehicles": 106826.0,
+      "diesel_vehicles": 255871.4,
+      "petrol_octane_vehicles": 32041.0,
+      "grid_electricity": 9379523.0,
+      "solar_onsite": 3695914.84,
+      "biomass_uncertified": 1686688.0
+    }
+  }
+}
